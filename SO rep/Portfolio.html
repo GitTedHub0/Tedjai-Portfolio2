@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Tedjai portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    
+<header class="header">
+    <a href="#home" class="logo">
+        Tedjai  <span></span> 
+        
+    </a>
+   
+<h1>Don't Trust Anyone, Trust Urself</h1>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#over mij">Over Mij </a>
+        <a href="#programmatalen">Programmatalen</a>
+        <a href="#projecten">Projecten</a>
+        <a href="#contact">Contact</a>
+        
+    </nav>
+</header>
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi , Im <span>Tedjai!</span></h1>
+        <h2>Im a ICT <span>Student of Natin-Mbo</span></h2>
+
+
+
+            <div class="btn-groep">
+                <a href="#contact" class="btn">contact me</a>
+            </div>
+    </div>
+
+    <div class="home img"></div>
+    <img src="Pic2.jpg" alt="">
+</section>
+
+<section class="about" id="over mij">
+    <div class="about img">
+        <img src="IMG-20230703-WA0006.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2>Over<span> Mij</span></h2>
+        <p>Greetings everyone, zoals eerder gezien in mijn home page, mijn naam is Tedjai.<br>
+             Tedjai Aushika. Ik ben een Natin student van het richting ICT en waarom ik ICT als mijn studie heb gekozen is
+              omdat ik since mijn tiener jaren heel geinteresserd was in hardware en het maken van Pc of mobielen. 
+              Well ik heb niet veel te vertellen over mezelf maar ik zal wel zeggen dat ik veel houdt van gamen, vollyballen, zwemmen en vooral eten. Dat was het zoiets en uh geniet van uw dag.  Bye Bye :D </p>
+
+</section>
+
+<section class="programma" id="programmatalen">
+    <h2 class="heading">Programmatalen</h2>
+
+    <div class="programma-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p class="title">HTML</p>
+                    <p></p>
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Mijn eerste leerjaar op Natin heb ik geleerd coderen met HTML. Door html te leren kan ik nu verschillende website coderen en bouwen </p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p class="title">CSS</p>
+                    <p></p>
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Na het gebruiken van html heb ik geleerd over CSS en eerlijk gezegt CSS is een beetje ingewikkeld maar het is leuk om het te gebruiken </p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p class="title">Python</p>
+                    <p></p>
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Ik heb Python ook geleerd op school en ik vindt het leuk om met python te coderen</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p class="title">Javascript</p>
+                    <p></p>
+                </div>
+                <div class="flip-card-back">
+                    <p class="title">Javascript was heel nieuw voor mij en ik hoorde mensen zeggen dat Javascript moeilijk is en eerlijk te zeggen Javascript is moeilijk voor mij om te coderen maar ik probeer te leren</p>
+                    
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="projects" id="projecten">
+    <h2 class="heading">Projecten</h2>
+
+    <div class="projecten-box">
+        <div class="projecten-card">
+
+            <h3>Project 1</h3>
+            <h3>Own Website</h3>
+            <p>In dit project moest mijn team lid en ik samen een website bouwen 
+                en wij hadden gekozen voor een klein bedrijf aangenaamd Made 4 You</p>
+        </div>
+
+        <div class="projecten-card">
+
+            <h3>Project 2</h3>
+            <h3>Calculator</h3>
+            <p>In dit project moest ik een eigen Calculator bouwen. De calculator moest een input kunnen hebben en het aantal bedrag ook berekenen.</p>
+            
+        </div>
+
+        <div class="projecten-card">
+    
+
+            <h3>Project 3</h3>
+            <h3></h3>
+            <p>In the periodic table of elements, there are seven horizontal rows of elements.
+                Each of these rows are called periods</p>
+        </dv>
+    </div>
+
+</section>
+
+<body>
+    <section class="Contact" id="contact">
+        <h2 class="heading">Contact Me </h2>
+        <div class="container">
+        <form action="/submit_form" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message Me:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+        
+                <button onclick="Submit()">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+<footer class="footer">
+   
+    <ul class="list">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#over mij">Over Mij</a>
+        </li>
+        <li>
+            <a href="#programmatalen">Programmatalen</a>
+        </li>
+        <li>
+            <a href="#projecten">Projecten</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    <p class="copyright">
+        @ Tedjai Aushika | All Rights Are Reserved
+    </p>
+</footer>
+
+
+    <script src="Portfolio.js"></script>
+</body>
+</html>
